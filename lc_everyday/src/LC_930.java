@@ -1,7 +1,7 @@
 class Solution { // prefixSum and HashMap O(n)
     public int numSubarraysWithSum(int[] nums, int goal) {
         Map<Integer, Integer> prefixSumToCount = new HashMap<>();
-        prefixSumToCount.put(0, 1);
+        prefixSumToCount.put(0, 1); // when prefixSum == goal
         int lastPrefixSum = 0;
         int res = 0;
 
