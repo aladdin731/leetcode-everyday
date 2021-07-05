@@ -1,6 +1,6 @@
 package topoSorting;
 import java.util.*;
-public class  LC_207 {
+public class  LC_207 { // topo sort O(v + e) O(v)
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         if (prerequisites == null || prerequisites.length == 0 || prerequisites[0].length == 0)
             return true;
